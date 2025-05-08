@@ -1,0 +1,116 @@
+/* Head-top */
+.wedding-rings img{
+    width: 16px;
+    margin-top: -43px;
+}
+.Head-top{
+    padding-bottom: 0px;
+}
+/* Hero section */
+  .hero {
+    position: relative;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding-top: 0px;
+    
+  }
+  .hero p{
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 290px;
+    color: grey;
+    position: relative;
+    bottom: 240px;
+
+  }
+  .top-left {
+    
+    position: absolute;
+    top: 600px;
+    left: 90px;
+
+  }
+  .top-left img{
+      width: 80%;
+  }
+  .hero-sec-img{
+      margin-left: -15px;
+      width: 102%;
+      
+  }
+
+  /* our services */
+.ourserv-imgs{
+  background-color: #f2ebe6;
+  
+}
+.ourserv-head2{
+  font-family: montserrat;
+  color: rgb(160, 160, 160); 
+  margin-top: 100px;  
+  padding-bottom: 30px;
+}
+.ourserv-imgs img{
+  width: 360px;
+  padding: 15px;
+  padding-bottom: 0px;
+  
+  
+}
+
+.ourserv-imgs p{
+  text-align: center;
+  color: rgb(160, 160, 160);
+}
+
+/* Destination */
+.ourserv-head2 p{
+  margin-top: -80px;
+}
+.slider-img{
+  
+  margin-top: 80px;
+  margin-left: -25px;
+}
+
+  
+   /* Gallery */
+   .gallery-img{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+/* Gallery-imgs */
+.section-gallery{
+  background-color:#f8f8f8;  
+}
+.gallery {
+  padding-bottom: 130px;
+  
+}
+.Gallery-imgs img{
+    width: 100%;
+    padding-bottom: 25px;
+    
+}
+
+/* bouquet-with-caption */
+.bouquet-with-caption img{
+  margin-left: -4px;
+  width: 100%;
+}
+
+.bouquet-with-caption button{
+    position: absolute;
+    top: 642%;
+    left: 10%;
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.356);
+    
+}
+/* footer */
+footer{
+    margin-top: 30px;
+}

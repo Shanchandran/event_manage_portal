@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            margin-left: 400px;
+            margin-right: 560px;
+            padding-right: 5px;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+
+        }
+
+        .location {
+            display: flex;
+            width: 100%;
+            padding: 4% 2%;
+            box-sizing: border-box;
+            height: 100vh;
+        }
+
+        .box {
+            flex: 1;
+            overflow: hidden;
+            transition: .5s;
+            margin: 0 2%;
+            box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+            line-height: 0;
+        }
+
+        .box>img {
+            width: 200%;
+            height: calc(100% - 10vh);
+            object-fit: cover;
+            transition: .5s;
+        }
+
+        .box>span {
+            font-size: 3.8vh;
+            display: block;
+            text-align: center;
+            height: 10vh;
+            line-height: 2.6;
+        }
+
+        .box:hover {
+            flex: 1 1 50%;
+        }
+
+        .box:hover>img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'ITALY')">ITALY</button>
+        <button class="tablinks" onclick="openCity(event, 'INDIA')">INDIA</button>
+        <button class="tablinks" onclick="openCity(event, 'THAILAND')">THAILAND</button>
+        <button class="tablinks" onclick="openCity(event, 'WORLD')">WORLD</button>
+
+    </div>
+
+    <div id="ITALY" class="tabcontent">
+        <div class="container location">
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Florence.jpg">
+                <span>Florence</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Tuscany.jpg">
+                <span>Tuscany</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Sicily.jpg">
+                <span>Sicily</span>
+            </div>
+            <div class="box">
+                <img
+                    src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Lake%20como.jpg">
+                <span>Lakecomo</span>
+            </div>
+        </div>
+        <h3>ITALY</h3>
+        <p>ITALY is the capital city of England.</p>
+    </div>
+    <div id="INDIA" class="tabcontent">
+        <div class="container location">
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Bangalore.jpeg">
+                <span>Bangalore</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Goa.jpg">
+                <span>Goa</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Kerala.jpg">
+                <span>Kerala</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Rajasthan.jpg">
+                <span>Rajasthan</span>
+            </div>
+        </div>
+        <h3>INDIA</h3>
+        <p>INDIA is the capital of France.</p>
+    </div>
+
+    <div id="THAILAND" class="tabcontent">
+        <div class="container location">
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Phuket.jpg">
+                <span>Phuket</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Krabi.jpg">
+                <span>Krabi</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Bangkok.jpg">
+                <span>Bangkok</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Koh-Samui.jpg">
+                <span>Koh-Samui</span>
+            </div>
+        </div>
+        <h3>THAILAND</h3>
+        <p>THAILAND is the capital of Japan.</p>
+    </div>
+
+    <div id="WORLD" class="tabcontent">
+        <div class="container location">
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Turkey.jpg">
+                <span>Turkey</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Bali.jpg">
+                <span>Bali</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Maldives.jpg">
+                <span>Maldives</span>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Desktop\SuriyaNCK\Resh&Co\images\destination-page\Imgs-overlay\Sri-lanka.jpg">
+                <span>Sri-lanka</span>
+            </div>
+        </div>
+        <h3>WORLD</h3>
+        <p>THAILAND is the capital of Japan.</p>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>

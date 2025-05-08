@@ -1,0 +1,280 @@
+
+/* head-top */
+.Head-top{
+    text-align: center;
+    margin-top: 13px;
+    
+
+}
+.Head-top p{
+    font-size: 13px;
+    margin-top: 4px;
+    
+}
+.Head-top a{
+    color: black;
+    text-decoration: none;
+}
+.Head-top .col-sm-1 img{
+    width: 16px;
+    margin-top: -43px;
+}
+.Head-top img{
+    width: 120px;
+}
+
+/* hero section */
+body, html {
+    height: 100%;
+  }
+  
+.col-sm-12 img{
+    width: 102.2%;
+    margin-left: -15px;
+    margin-top: -10px;
+} 
+  
+/* 2nd part */
+.sec-part img{
+    margin: 60px;
+}
+.words{
+    width: 89%;
+    padding-top: 50px;
+    padding-left: 130px;
+}
+.sec-part{
+    width: 86%;
+}
+.col-sm-6 img{
+    margin-top: 150px;
+}
+.secondpart{
+    background-color: #f2f2f2;
+    padding-bottom: 100px;
+}
+.col-sm-6 p{
+    margin-top: 55px;
+    margin-left: 155px;
+    color: grey;
+}
+.col-sm-6 h6{
+    margin-top: 55px;
+    margin-left: 155px;
+    color: grey;
+}
+
+/* Acheivements */
+.Acheivements{
+    padding: 80px;
+    background-color: #f2ebe6;
+    padding-left: 90px;
+}
+.col-sm-2 h1{
+    font-size: 50px;
+    font-family: montserrat;
+    font-weight: 100;
+    color: #5F606C;
+}
+.col-sm-2 h5{
+    font-size: 20px;
+    font-weight: 300;
+    color: #5F606C;
+}
+
+/* Fourthpart col-1 */
+.fourthpart{
+    padding-bottom: 100px;
+    background-color: #f8f8f8;
+}
+.fourth-img {
+    padding-top: 170px;
+    padding-left: 140px;
+}
+.fourth-img p{
+    margin-left: 0px;
+    font-size: 15px;
+    padding-left: -50px;
+    padding-top: 35px;
+    color: rgb(134, 134, 134);
+
+}
+/* Fourthpart col-2 */
+.colm2-img{
+    width: 430px;
+    margin-left: 40px;
+}
+
+/* our services */
+.ourserv-imgs{
+    background-color: #f2ebe6;
+    
+}
+.ourserv-head2{
+    font-family: montserrat;
+    color: rgb(160, 160, 160); 
+    margin-top: 100px;  
+}
+.ourserv-imgs img{
+    width: 250px;
+    padding: 0px;
+    
+}
+.ourserv-imgs p{
+    text-align: center;
+    color: rgb(160, 160, 160);
+}
+
+/* Destination */
+.ourserv-head2 p{
+    margin-top: -80px;
+}
+.slider-img{
+    
+    margin-top: 80px;
+    margin-left: -25px;
+}
+
+/* carousal */
+.top-content .carousel-control-prev {
+    left: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+
+.top-content .carousel-control-next {
+    right: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+.carousel-inner{
+    width: 100%;
+    height: 50%;
+    
+}
+.place{
+    color: rgb(163, 163, 163);
+    margin-bottom: 30px;
+}
+.sec-button{
+    margin-bottom: 70px;
+}
+.sec-button button{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.356);
+}
+/* At-resh */
+
+.At-Reshco{
+    text-align: center;
+    padding-bottom: 150px;
+    background-color: #f8f8f8;
+    
+}
+.col1img{
+    
+    padding-left: 50px;
+}
+.col2img{
+    padding-right: 550px;
+    padding-top: 250px;
+}
+
+/*  our-events */
+.Our-events-sec{
+    background-color: #f2ebe6;
+}
+.our-events{
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+}
+.our-events-head2{
+    font-family: montserrat;
+    color: grey;
+    padding-bottom: 50px;
+    margin-top: 90px;
+}
+.our-events img{
+    margin: 0px;
+}
+.OUREVENT button{
+  text-align: center;  
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.356); 
+}
+.OUREVENT .col-sm-6{
+    padding-left: 230px;
+    padding-bottom: 100px;
+}
+
+/* features */
+.Feature-sec{
+    background-color: #f8f8f8;
+}
+.our-events-head2{
+    font-family: montserrat;
+    color: grey;
+    padding-bottom: 50px;
+    margin-top: 90px;
+}
+.banners img{
+   width: 105%;
+   margin-left: -15px;
+   margin-bottom: 60px;
+}
+.banners button{
+    position: absolute;
+    top: 1284%;
+    left: 10%;
+    width: 170px;
+    height: 55px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.356);
+}
+
+/* footer */
+footer{
+    background-color:rgb(233, 233, 233);
+    
+}
+
+.resh-foot img{
+    margin: 60px;
+    margin-left: 70px;
+}
+.resh-foot h6{
+    margin-top: 50px;
+    color: rgb(134, 134, 134);
+}
+.resh-foot a{
+    text-decoration: none;
+    color: grey;
+}
+.wedd-in1{
+    padding-left: 75px;
+}
+.wedd-in2 {
+    padding-top: 103px;
+    padding-left: 50px;
+    margin-left: -100px;
+}
+.company{
+    padding-left: 30px;
+}
+.contacts{
+    padding-left: 40px;
+}
+.contacts b{
+    color: rgb(134, 134, 134);
+}
+.contacts p{
+    color: grey;
+}
+
+.copyright{
+    background-color:#8a8b9a;
+    height: 50px;
+    color: #f8f8f8;
+}

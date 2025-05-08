@@ -1,0 +1,76 @@
+/* Head-top */
+.wedding-rings img{
+    width: 16px;
+    margin-top: -43px;
+}
+.Head-top{
+    padding-bottom: 0px;
+}
+/* Hero section */
+.hero {
+    position: relative;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding-top: -200px;
+  }
+
+  .top-left {
+    
+    position: absolute;
+    top: 80px;
+    left: 90px;
+  }
+
+  .top-left img{
+      width: 105%;
+  }
+
+  .hero-sec-img{
+      margin-left: -15px;
+      width: 102%;
+  }
+  .herosec-words p {
+      text-align: center;
+      padding-top: 90px;
+      color: grey;
+      padding-bottom: 70px;
+  }
+
+  /* Gallery */
+  .gallery-img{
+      padding-top: 100px;
+      padding-bottom: 90px;
+  }
+
+  /* Gallery-imgs */
+  .section-gallery{
+    background-color:#f8f8f8;  
+  }
+  .gallery {
+    padding-bottom: 130px;
+    
+  }
+  .Gallery-imgs img{
+      width: 100%;
+      padding-bottom: 25px;
+      
+  }
+
+  /* bouquet-with-caption */
+  .bouquet-with-caption img{
+    margin-left: -4px;
+  }
+  .bouquet-with-caption button{
+      position: absolute;
+      top: 571%;
+      left: 10%;
+      background-color: white;
+      width: 250px;
+      height: 60px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.356);
+      
+  }
+  /* footer */
+  footer{
+      margin-top: 30px;
+  }
